@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-import MyComponent from './MyComponent';
-import Say from './Say';
+// import MyComponent from './MyComponent';
+// import Say from './Say';
+import EventPractice from './EventPractice';
 
 //import './App.css';
+
+const App = () => {
+  return <EventPractice />;
+};
+
+export default App;
 
 // function App() {
 //   const name = 'react';
@@ -26,8 +33,4 @@ import Say from './Say';
 //   }
 // }
 
-const App = () => {
-  return <Say />;
-};
 
-export default App;
